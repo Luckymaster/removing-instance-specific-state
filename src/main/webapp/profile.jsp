@@ -15,6 +15,12 @@
 <div>Username:</div>
 <div><%= session.getAttribute("username") %>
 </div>
+
+<div>
+Instance number: <%= System.getenv("CF_INSTANCE_INDEX") %>
+</div>
+
+
 <div>Phone Number:</div>
 <div><%= session.getAttribute("phoneNumber") %>
 </div>
